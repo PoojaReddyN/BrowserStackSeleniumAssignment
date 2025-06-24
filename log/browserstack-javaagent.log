@@ -1,0 +1,43 @@
+14:54:10.254 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.19.1
+14:54:10.255 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:54:10.783 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+14:54:10.784 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\nuthula_pooja\BrowserStackSeleniumAssignment\browserstack.yml
+14:54:11.035 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:54:11.050 [main] INFO  c.b.config.BrowserStackConfig - Setting value of browserstackAutomation as specified in your browserstack.yml to false
+14:54:11.051 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+14:54:12.407 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 8503428d-736f-42fa-8c47-aeb0a8ae410c
+14:54:12.407 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:54:12.463 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\nuthula_pooja\.browserstack already exist
+14:54:12.464 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+14:54:12.464 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+14:54:13.396 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+14:54:13.396 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-win-x64-1.4.1.zip
+14:54:20.323 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: C:\Users\nuthula_pooja\.browserstack\cli
+14:54:20.327 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\nuthula_pooja\.browserstack\cli\binary-win-x64.exe
+14:54:20.342 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=cucumber-testng
+14:54:20.956 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:54:25.870 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: knbuzmidmbnt0ynxhk8bv3tf0ssipdi7hbjszhgk
+14:54:25.871 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:54:25.882 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+14:54:26.486 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+14:55:06.230 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/knbuzmidmbnt0ynxhk8bv3tf0ssipdi7hbjszhgk to view build report, insights, and many more debugging information all at one place!
+
+14:55:06.230 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+14:55:06.231 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+14:55:06.837 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\nuthula_pooja\BrowserStackSeleniumAssignment\browserstack.yml
+14:55:06.837 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\nuthula_pooja\BrowserStackSeleniumAssignment\browserstack.yml
